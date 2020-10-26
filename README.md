@@ -8,4 +8,9 @@ Python 3.0
 ```
 pip install scapy
 ```
-
+### Uso 📋
+```
+python algoritmo.py -p file.pcap -d dominio.com
+```
+## Estado 🚀
+Actualmente se encuentra en estado de PoC, se logro determinar si el usuario ingresa a un sitio web, sin certificado o con certificado SSL/TLS, para la verificación de datos ingresados se lo identifica observando la respuesta de la api de google (checkgooglepasswordlist), petición que es enviada al momento de realizar un POST en cualquier formulario
